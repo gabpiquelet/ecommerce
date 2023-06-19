@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylecadastro.css">
+    <title>Quero me cadastrar!</title>
+</head>
+
+<body>
+    <main class="content">
+        <h2>Cadastrar</h2>
+        <form class="align">
+            <p>
+            <label for="nome">Nome</label><br><input type="text" id="nome" placeholder="Seu nome completo" required><br>
+            </p>
+            <p>
+                <label for="cpf">CPF</label><br><input type="number" id="cpf" placeholder="Insira seu CPF">
+            </p>
+            <p>
+                <label for="rg">RG</label><br><input type="number" id="rg" placeholder="Insira seu RG">
+            </p>
+            <p>
+                <label for="id_genero">Identidade de genêro</label><br>
+                <select n   ame="id_genero">
+                    <option hidden>Selecione</option>
+                    <option value="m_cis">Mulher cis</option>
+                    <option value="h_cis">Homem cis</option>
+                    <option value="m_trans">Mulher trans</option>
+                    <option value="h_trans">Homem trans</option>
+                    <option value="n_binario">Não-binário</option>
+                </select>
+            </p>
+            <p>
+            <label for="nasci">Data de nascimento</label><br><input type="date" id="nasci" required><br>
+            </p>
+            <p>
+            <label for="email">E-mail</label><br><input type="email" id="email" placeholder="fulano@email.com.br"><br>
+            </p>
+            <p>
+            <label for="tel">Telefone</label><br><input type="tel" id="tel" placeholder="(DDD)1234-56789" required><br>
+            </p>
+            <p>
+            <label for="passwd">Senha</label><br><input type="password" id="passwd" placeholder="mínimo de 6 caracteres" required><br>
+            </p>
+             <p>
+            <label for="passwd">Confirmar senha</label><br><input type="password" id="confirm" placeholder="Igual a senha anterior" required><br>
+            </p>
+            <p>
+                Receber notificações? <br>
+                <label for="s">Sim</radio><input type="radio" id="s" name="option" required>
+                <label for="n">Não</radio><input type="radio" id="n" name="option" required>
+            </p>
+            <p required>
+                <input type="checkbox" name="termos" value="termos"> Aceitos os termos de política e privacidade do site
+            </p>
+            <p>
+                <button type="submit">Criar conta</button>
+            </p>
+            
+            <p>Você já tem uma conta? <a href="pagelogin.html">Fazer login</a></p>
+        </form>
+    </main>
+</body>
+</html>
