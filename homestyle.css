@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+#nav_css{
+    display: flex;
+    height: 40px;
+    width:100%;
+    background-color: #d62e02;
+}
+
+#menu{
+    width: 95%;
+    display: flex;
+    column-gap: 25px;
+    margin: auto;
+}
+
+/*.menu_subitem{
+    display:flex;
+    list-style: none;
+    list-style-type:;
+    row-gap: 10px;
+}
+
+.menu_subitem > li > a {
+    text-decoration: none;
+    color: black;
+}*/
+
+.menu_secao{
+    display: flex;
+    list-style: none;
+}
+
+section > img{
+    width: 350px;
+    height: 136px;
+}
+
+nav > img{
+
+}

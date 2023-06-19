@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.login{
+    margin: 3%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.login__content{
+    border-style: groove;
+    border-color: red;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 40%;
+    height: 550px;
+}
+
+h1{
+    font-size: 20px;
+    text-align: center;;
+}
+
+.login__form{
+    text-align: center;
+    width: 100%;
+    align-self: center;
+}
+
+.botao{
+    margin: auto;
+    width: 95%;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    background-color: #e73d3dce;
+    border-radius: 10px;
+    padding: 5px 0px;
+    margin-bottom: 50px;
+}
+
+.campo{
+    height: 30px;
+    margin: auto;
+    width: 95%;
+}
+
+#cadastro{
+    color: black;
+    background-color: #e73d3dce;
+    border-radius: 10px;
+    padding: 5px 0px;
+    margin: auto;
+    width: 95%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
