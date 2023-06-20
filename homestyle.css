@@ -7,6 +7,30 @@ body{
     height: 100vh;
 }
 
+#folder{
+    display: flex;
+    width: 35%;
+    height: 650px;
+    margin-left: 3%;
+    grid-area: 1 / 1 / span 2 / span 3;
+}
+
+#folders {
+    height:350px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    gap: 10px;
+    padding: 10px;
+  }
+
+#outonoinverno{
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+
+/*
 #nav_css{
     display: flex;
     height: 40px;
@@ -21,28 +45,15 @@ body{
     margin: auto;
 }
 
-/*.menu_subitem{
+.menu_secao{
     display:flex;
     list-style: none;
     list-style-type:;
     row-gap: 10px;
 }
 
-.menu_subitem > li > a {
-    text-decoration: none;
-    color: black;
-}*/
-
 .menu_secao{
     display: flex;
     list-style: none;
 }
-
-section > img{
-    width: 350px;
-    height: 136px;
-}
-
-nav > img{
-
-}
+*/
