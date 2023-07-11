@@ -14,18 +14,18 @@
         <h2>Cadastrar</h2>
         <form class="align">
             <p>
-            <label for="nome">Nome</label><br><input type="text" id="nome" placeholder="Seu nome completo" required><br>
+            <label for="nome"></label><input type="text" id="nome" placeholder="Nome completo" required><br>
             </p>
             <p>
-                <label for="cpf">CPF</label><br><input type="number" id="cpf" placeholder="Insira seu CPF">
+                <label for="cpf"></label><input type="number" id="cpf" placeholder="CPF"><br>
             </p>
             <p>
-                <label for="rg">RG</label><br><input type="number" id="rg" placeholder="Insira seu RG">
+                <label for="rg"></label><input type="number" id="rg" placeholder="RG"><br>
             </p>
             <p>
-                <label for="id_genero">Identidade de genêro</label><br>
-                <select n   ame="id_genero">
-                    <option hidden>Selecione</option>
+                <label for="id_genero" id="opcao"</label>
+                <select name="id_genero">
+                    <option hidden>Gênero</option>
                     <option value="m_cis">Mulher cis</option>
                     <option value="h_cis">Homem cis</option>
                     <option value="m_trans">Mulher trans</option>
@@ -34,22 +34,22 @@
                 </select>
             </p>
             <p>
-            <label for="nasci">Data de nascimento</label><br><input type="date" id="nasci" required><br>
+            <label for="nasci"></label><input type="date" id="nasci" required><br>
             </p>
             <p>
-            <label for="email">E-mail</label><br><input type="email" id="email" placeholder="fulano@email.com.br"><br>
+            <label for="email"></label><input type="email" id="email" placeholder="fulano@email.com.br"><br>
             </p>
             <p>
-            <label for="tel">Telefone</label><br><input type="tel" id="tel" placeholder="(DDD)1234-56789" required><br>
+            <label for="tel"</label><input type="tel" id="tel" placeholder="(DDD) Número de telefone" required><br>
             </p>
             <p>
-            <label for="passwd">Senha</label><br><input type="password" id="passwd" placeholder="mínimo de 6 caracteres" required><br>
+            <label for="passwd"></label><input type="password" id="passwd" placeholder="Senha com pelo menos 6 caracteres" required><br>
             </p>
              <p>
-            <label for="passwd">Confirmar senha</label><br><input type="password" id="confirm" placeholder="Igual a senha anterior" required><br>
+            <label for="passwd"></label><input type="password" id="confirm" placeholder="Confirmar senha" required><br>
             </p>
-            <p>
-                Receber notificações? <br>
+            <p class="bottom">
+                Receber notificações?
                 <label for="s">Sim</radio><input type="radio" id="s" name="option" required>
                 <label for="n">Não</radio><input type="radio" id="n" name="option" required>
             </p>
