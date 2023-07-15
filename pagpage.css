@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding:2rem;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.campo{
+    width: 30rem;
+}
+
+input{
+    padding: 3px;
+    border: thin solid grey;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.parcelas_label{
+    margin-left: 1rem;
+}
