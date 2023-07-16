@@ -12,55 +12,55 @@
 <body>
     <main class="content">
         <h2>Cadastrar</h2>
-        <form class="align">
+        <form >
             <p>
-            <label for="nome"></label><input type="text" id="nome" placeholder="Nome completo" required><br>
+            <label for="nome"></label><input class="campo" type="text" id="nome" placeholder="Nome completo" required><br>
             </p>
             <p>
-                <label for="cpf"></label><input type="number" id="cpf" placeholder="CPF"><br>
+                <label for="cpf"></label><input class="campo" type="number" id="cpf" placeholder="CPF" required><br>
             </p>
             <p>
-                <label for="rg"></label><input type="number" id="rg" placeholder="RG"><br>
+                <label for="rg"></label><input class="campo" type="number" id="rg" placeholder="RG" required><br>
             </p>
             <p>
-                <label for="id_genero" id="opcao"</label>
-                <select name="id_genero">
+                <label for="id_genero">
+                <select class="campo" id="opcao" name="id_genero">
                     <option hidden>Gênero</option>
-                    <option value="m_cis">Mulher cis</option>
-                    <option value="h_cis">Homem cis</option>
-                    <option value="m_trans">Mulher trans</option>
-                    <option value="h_trans">Homem trans</option>
-                    <option value="n_binario">Não-binário</option>
+                    <option class="option" value="m_cis">Mulher cis</option>
+                    <option class="option" value="h_cis">Homem cis</option>
+                    <option class="option" value="m_trans">Mulher trans</option>
+                    <option class="option" value="h_trans">Homem trans</option>
+                    <option class="option" value="n_binario">Não-binário</option>
+                </label>
                 </select>
             </p>
             <p>
-            <label for="nasci"></label><input type="date" id="nasci" required><br>
+            <label for="data"></label><input class="campo" type="date" id="data" required><br>
             </p>
             <p>
-            <label for="email"></label><input type="email" id="email" placeholder="fulano@email.com.br"><br>
+            <label for="email"></label><input class="campo" type="email" id="email" placeholder="Seu endereço de e-mail" required><br>
             </p>
             <p>
-            <label for="tel"</label><input type="tel" id="tel" placeholder="(DDD) Número de telefone" required><br>
+            <label for="tel"></label><input class="campo" type="tel" id="tel" placeholder="(DDD) Número de telefone" required><br>
             </p>
             <p>
-            <label for="passwd"></label><input type="password" id="passwd" placeholder="Senha com pelo menos 6 caracteres" required><br>
+            <label for="passwd"></label><input class="campo" Type="password" id="passwd" placeholder="Senha com pelo menos 6 caracteres" required><br>
             </p>
              <p>
-            <label for="passwd"></label><input type="password" id="confirm" placeholder="Confirmar senha" required><br>
+            <label for="passwd"></label><input class="campo" type="password" id="confirm" placeholder="Confirmar senha" required><br>
             </p>
             <p class="bottom">
-                Receber notificações?
-                <label for="s">Sim</radio><input type="radio" id="s" name="option" required>
-                <label for="n">Não</radio><input type="radio" id="n" name="option" required>
+                <label>Deseja receber promoções especiais? </label><br>
+                <label for="s"><input type="radio" id="s" name="option">Sim </label>
+                <label for="n"><input type="radio" id="n" name="option">Não</label>
             </p>
-            <p required>
-                <input type="checkbox" name="termos" value="termos"> Aceitos os termos de política e privacidade do site
-            </p>
-            <p>
-                <button type="submit">Criar conta</button>
-            </p>
-            
-            <p>Você já tem uma conta? <a href="pagelogin.html">Fazer login</a></p>
+            <p  class="campo">
+                <label id="termos" for="termos"><input type="checkbox"  name="termos" value="termos" required> Aceitos os termos de política e privacidade do site</label>
+            </p> 
+            <p class="campo">
+                <button class="botao" type="submit">Criar conta</button>
+            </p>            
+            <p id="login">Já possui cadastro? <a href="loginpage.html">Entrar</a></p>
         </form>
     </main>
 </body>
