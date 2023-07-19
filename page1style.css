@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    display:inline-flex;
+    height: 40px;
+    width:100%;
+    background-color: #000000;
+}
+
+.nav_class{
+    display:inline-flex;
+    height: 40px;
+    width:100%;
+    background-color: #000000;
+}
