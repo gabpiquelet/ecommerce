@@ -37,8 +37,9 @@ input{
 }
 
 .parcelas_label{
-    margin-left: 1rem;
-    
+    margin-left: 30%;
+    padding: 1rem;   
+        
 }
 
 #parcelar{
