@@ -18,7 +18,7 @@ body{
     flex-direction: column;
     margin: 1rem;
     padding:2rem;
-    align-items: center;
+    align-items: left;
     row-gap: 1rem;
 }
 
@@ -36,10 +36,7 @@ input{
     -o-border-radius: 0.5rem;
 }
 
-.parcelas_label{
-    margin-left: 30%;
-    padding: 1rem;   
-        
+.parcelas_label{  
 }
 
 #parcelar{
